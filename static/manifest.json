@@ -1,0 +1,51 @@
+{
+  "name": "bubble-wallet",
+  "version": "1.0",
+  "description": "bubble-wallet",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "clipboardWrite",
+    "notifications",
+    "scripting",
+    "storage",
+    "webRequest",
+    "tabs"
+  ],
+  "host_permissions": [],
+  "externally_connectable": {
+    "matches": []
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/logo.png",
+      "32": "/logo.png",
+      "48": "/logo.png",
+      "128": "/logo.png"
+    },
+    "default_title": "bubble-wallet"
+  },
+  "icons": {
+    "16": "/logo.png",
+    "32": "/logo.png",
+    "48": "/logo.png",
+    "128": "/logo.png"
+  }
+}

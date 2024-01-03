@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Turn NetWork</title>
+  </head>
+  
+<style>
+  html{
+    min-width: 375px;
+    min-height: 680px;
+  }
+  ._loading {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    animation: rotate 2s infinite linear;
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+  <body style="min-width: 375px;min-height: 600px;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" >
+      <div style="position: absolute;
+        width: 90vw;height: 90vh;
+        display: flex;align-items: center;
+        justify-content: center;">
+        <div class="_loading"></div>
+      </div>
+    </div>
+  </body>
+</html>

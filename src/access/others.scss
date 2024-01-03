@@ -1,0 +1,52 @@
+.import-but{
+    border: 1px solid rgba(179, 216, 255, 1);
+    // width: 100%;
+    padding: 10px 20px;
+    background-color:rgba(236, 245, 255, 1);
+    color: #409EFF;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+.footer_menu_item:hover{
+    color:#71dafd;
+   i{
+   color:#71dafd;
+   }
+}
+._menu_item-active{
+    color:#1677ffd7;
+   i{
+   color:#1677ffd7;
+   }
+}
+
+
+
+.token-card{
+    border: 1px solid #f3f3f3;
+    border-radius: 8px;
+}
+
+.balance-div{
+    border-top: 1px solid #f3f3f3;
+}
+
+._drawer{
+    .ant-drawer-close{
+        display: none;
+    }
+}
+
+._card{
+    border: 1px solid #f3f3f3;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

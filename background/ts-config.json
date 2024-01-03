@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "outDir": "../background/dist/",
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "esnext",
+      "jsx": "react",
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "Node",
+      "noEmitOnError": true,
+      "typeRoots": [ "node_modules/@types" ]
+    },
+    "include": ["../background","../extension-env.d.ts"]
+  }
